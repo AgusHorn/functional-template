@@ -2,13 +2,13 @@
   (:require [clojure.test :refer :all]
             [exercise9 :refer :all]))
 
-; (deftest count-one-word
-;   (is (= {"word" 1}
-;          (word-count "word"))))
+ (deftest count-one-word
+   (is (= {"word" 1}
+          (word-count "word"))))
 
-; (deftest count-one-of-each
-;   (is (= {"one" 1 "of" 1 "each" 1}
-;          (word-count "one of each"))))
+ (deftest count-one-of-each
+   (is (= {"one" 1 "of" 1 "each" 1}
+          (word-count "one of each"))))
 
 ; (deftest count-multiple-occurrences
 ;   (is (= {"one" 1 "fish" 4 "two" 1 "red" 1 "blue" 1}

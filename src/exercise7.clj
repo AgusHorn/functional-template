@@ -3,7 +3,8 @@
 (defn increment
   "Increments a given input by 1."
   [x]
-  (throw (Exception. "Not implemented."))
+  (let [answer (+ x 1)]
+    answer)
 )
 
 
