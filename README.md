@@ -44,3 +44,8 @@ lein test
 
 ## Run Repl
 lein repl
+
+## Run Docker
+Run command `docker build .` inside this directory.
+
+Then run `docker run <image ID>` to run container and run tests.
